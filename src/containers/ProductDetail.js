@@ -5,7 +5,7 @@ import {selectedProduct, removeSelectedProduct} from '../redux/actions/productAc
 import axios from 'axios';
 
 
-const ProductDetail = () => {
+const ProductDetail = () => { 
 
     const {productId }  = useParams();
     const dispatch = useDispatch();
